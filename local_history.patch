@@ -1,0 +1,14 @@
+Index: routes/web.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/routes/web.php b/routes/web.php
+--- a/routes/web.php	
++++ b/routes/web.php	(date 1656332112637)
+@@ -35,3 +35,5 @@
+ Route::get('/index', 'App\Http\Controllers\HomeController@index');
+ 
+ 
++
++
